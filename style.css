@@ -12,24 +12,143 @@
     align-items: center;
 }
 
-nav{
+header{
     background-color: cyan;
+    padding-bottom: 0.5rem;
 }
 
 .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     height: 2rem;
     width: 10rem;
     background-color: darkgoldenrod;
-    text-align: center;
-    border: 1px dashed black;
-    
+    border: 1px dashed black;   
 }
 
 .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     height: 2rem;
     width: 20rem;
     background-color: darkgoldenrod;
-    text-align: center;
     border: 1px dashed black;
 }
 
+.blue{
+    background-color: blue;
+    height: 15rem;
+}
+
+.viola{
+    background-color: palevioletred;
+    height: 10rem;
+    width: 25rem;
+    border: 1px dashed black;   
+}
+
+.container1{
+    background-color: white;
+    height: 20rem;
+    width: auto;
+}
+
+.celeste{
+    background-color: rgb(170, 241, 241);
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 15rem;
+    border: 1px dashed black;   
+}
+
+.rosa{
+    background-color: pink;
+    width: 15rem;
+    height: 15rem;
+    border: 1px dashed black;   
+}
+
+.container2{
+    background-color: lightgrey;
+    height: 20rem;
+    width: auto;
+}
+
+.container3{
+    background-color: lightgrey;
+    height: 35rem;
+    width: auto;
+}
+
+.green{
+    background-color: green;
+    width: 40rem;
+    height: 30rem;
+}
+
+.container4{
+    background-color: darkgray;
+    width: auto;
+    height: 20rem;
+}
+
+.rosascuro{
+    background-color: rosybrown;
+    height: 15rem;
+    width: 15rem;
+    border: 1px dashed black; 
+}
+
+.acqua{
+    background-color: aqua;
+    height: 15rem;
+    width: calc(25rem / 4);
+    border: 1px dashed white; 
+}
+
+hr{
+    color: white;
+}
+
+.container5{
+    background-color: darkgray;
+    width: auto;
+    height: 10rem;
+}
+
+.azure{
+    background-color: aquamarine;
+    display: flex;
+    align-self: flex-end;
+    height: 5rem;
+    width: 40rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    width: 3rem;
+    height: 2rem;
+    border: 1px dashed black; 
+}
+
+.bottone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    width: 4rem;
+    height: 2rem;
+    border: 1px dashed black; 
+}
